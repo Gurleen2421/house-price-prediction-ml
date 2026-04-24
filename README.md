@@ -42,7 +42,8 @@ California Housing Dataset (from Kaggle)
 
 ## 📷 Demo Screenshot
 
-(Add your screenshot here)
+<img width="1893" height="907" alt="image" src="https://github.com/user-attachments/assets/0ff5ebfb-b3ae-4de8-8e12-77ea66456150" />
+
 
 ---
 
