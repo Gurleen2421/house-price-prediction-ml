@@ -1,51 +1,81 @@
-# house-price-prediction-ml
 # 🏠 House Price Prediction Web App
 
 ## 📌 Overview
-End-to-end Machine Learning project that predicts California house prices using Random Forest Regressor and a Flask web app.
+
+This project is an end-to-end Machine Learning system that predicts house prices using the California Housing dataset. It includes model training, evaluation, and deployment via a Flask web application with an interactive UI.
 
 ---
 
 ## ⚙️ Tech Stack
-- Python
-- Scikit-learn
-- Flask
-- HTML, CSS, JavaScript
-- Pandas, NumPy
+
+* Python
+* Scikit-learn
+* Flask
+* HTML, CSS, JavaScript
+* Pandas, NumPy
 
 ---
 
 ## 📊 Dataset
-California Housing Dataset (Kaggle)
+
+California Housing Dataset (from Kaggle)
 
 ---
 
-## 🤖 ML Model
-- Random Forest Regressor
-- R² Score: 0.83
+## 🤖 Model Details
+
+* Algorithm: Random Forest Regressor
+* R² Score: 0.83
+* Evaluated using Mean Squared Error & R² Score
 
 ---
 
 ## 🚀 Features
-- Interactive UI for input
-- Real-time prediction
-- Loading animation
-- Feature importance visualization
-- Responsive design
+
+* Interactive UI for input features
+* Real-time prediction using Flask API
+* Loading animation & smooth UX
+* Feature importance visualization
+* Clean and responsive design
 
 ---
 
-## 📷 Demo
-(Add screenshot of your UI here)
+## 📷 Demo Screenshot
+
+(Add your screenshot here)
+
+---
+
+## ▶️ How to Run Locally
+
+```bash
+git clone https://github.com/Gurleen2421/house-price-prediction-ml.git
+cd house-price-prediction-ml
+pip install -r requirements.txt
+python app.py
+```
+
+Then open:
+http://127.0.0.1:5000
+
+---
+
+## 📦 Project Structure
+
+app/ → Flask backend
+static/ → CSS & JS
+templates/ → HTML
+notebook/ → Model training
+model/ → (excluded from GitHub)
 
 ---
 
 ## 🧠 Key Insight
-Median Income is the strongest predictor of house prices.
+
+Median income and location are the strongest predictors of housing prices in this dataset.
 
 ---
 
-## ▶️ Run Locally
-```bash
-pip install -r requirements.txt
-python app.py
+## 👨‍💻 Author
+
+Gurleen Kaur
